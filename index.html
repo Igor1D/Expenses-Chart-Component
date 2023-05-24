@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./index.js"></script>
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mainDiv">
+
+    <div class="myBalanceDiv">
+      <div class="balanceTitle">
+        <h5>My balance</h5>
+      </div>
+      <div class="balanceAmount">
+        <p>$921.48</p>
+      </div>
+      <div class="logo"><img src="./images/logo.svg" alt="logo"></div>
+
+
+
+    </div>
+
+
+    <div class="chartMainDiv">
+      <div class="chartTitle">
+        <h3>Spending - Last 7 days</h3>
+      </div>
+      <div class="chart" id="chart">
+        <ul class="bars">
+          <!-- <li>
+            <div class="bar"><span class="tooltip-text" id="top">$17.45</span></div><span>mon</span>
+          </li>
+          <li>
+            <div class="bar""><span class="tooltip-text" id="top">$34.91</span></div><span>tue</span>
+          </li>
+          <li>
+            <div class="bar"><span class="tooltip-text" id="top">$52.36</span></div><span>wed</span>
+          </li>
+          <li>
+            <div class="bar"><span class="tooltip-text" id="top">$31.07</span></div><span>thu</span>
+          </li>
+          <li>
+            <div class="bar"><span class="tooltip-text" id="top">$23.39</span></div><span>fri</span>
+          </li>
+          <li>
+            <div class="bar"><span class="tooltip-text" id="top">$43.28</span></div><span>sat</span>
+          </li>
+          <li>
+            <div class="bar"><span class="tooltip-text" id="top">$25.48</span></div><span>sun</span>
+          </li> -->
+        </ul>
+
+      </div>
+      <div class="line">
+        <hr>
+      </div>
+      <div class="underTheChart">
+        <div class="footerFirstBlock">
+          <p class="totalThisMonth">Total this week</p>
+          <p class="amount" id="amount">$478.33</p>
+        </div>
+        
+        <div class="footerSecondBlock">
+          <p class="percentage">+2.4%</p>
+          <p class="fromLastMonth">from last month</p>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
